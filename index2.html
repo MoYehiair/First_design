@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo-App</title>
+    <link rel="stylesheet" href="main2.css">
+</head>
+
+<body>
+    <header>
+        <h1>To-do App</h1>
+        <h2>What do you need to do?</h2>
+    </header>
+    <div class="all">
+        <div class="container">
+            <div class="actions">
+                <div class="action">
+                    <label class="input">
+                        <p>Filter</p>
+                        <input class="input" type="text" placeholder="Filter todos" id="note">
+                    </label>
+                    <label class="checkbox">
+                        <input id="check" type="checkbox">
+                        <span>Hide Completed</span>
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <label class="color">
+                Color:<input name="main-color" type="color" name="base" value="#ffc600" class="m-color">
+            </label>
+
+            <div class="d">
+            </div>
+            <form action="" id="form">
+                <input class="input" type="text" placeholder="Add something to do" id="in" name="first">
+                <button class="button">Add todo</button>
+            </form>
+        </div>
+    </div>
+    <script src="uuid.js"></script>
+    <script src="functions.js"></script>
+    <script src="main2.js"></script>
+    <script src="hangman.js"></script>
+</body>
+
+</html>
